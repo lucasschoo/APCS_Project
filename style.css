@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ body{
   }
 
   #image-container2 {
-    margin-top: 750px;
+    margin-top: 170px;
     margin-left: -463px;
     padding: 10px;
   }
@@ -148,8 +148,55 @@ body{
     top: 390px;
     right: 445px;
     font-style: italic;
-    font-family: Kanit;
+    font-family: Archivo;
     font-size: 20px; 
     color: black;
     font-weight: 100px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    left: -400px;
+    top: -220px;
+  }
+  
+  nav li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Ubuntu;
+    font-style: oblique;
+  }
+  
+  .dropdown-menu {
+    font-size: 15px;
+    font-family: Ubuntu;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: black;
+    background-color: white;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    padding: 10px 10px;
+  }
+  
+  nav li:hover .dropdown-menu {
+    display: block;
   }
